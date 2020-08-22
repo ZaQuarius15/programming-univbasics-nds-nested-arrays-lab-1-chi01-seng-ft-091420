@@ -19,13 +19,13 @@ CONVENTIONAL_PRODUCE = [
 def assembled_matrix
   new_array = [
     CONVENTIONAL_PRODUCE, 
-    CONVENTIONAL_PRODUCE]
+    ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
   new_array = [
-    ORGANIC_PRODUCE.sort, 
-    CONVENTIONAL_PRODUCE.sort]
+    CONVENTIONAL_PRODUCE.sort, 
+    ORGANIC_PRODUCE.sort]
 end
 
 def matrix_lookup(matrix, row, column)
